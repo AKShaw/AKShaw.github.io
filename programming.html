@@ -1,0 +1,86 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+		<!--Import Google Icon Font-->
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Alex Shaw - Programming</title>
+		<link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16" />
+    </head>
+
+    <body>
+		<nav class="light-blue">
+			<div class="nav-wrapper container">
+				<a class="brand-logo" href="index.html">Alex Shaw</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          
+				<ul class="right hide-on-med-and-down" id="nav-mobile">
+					<li><a href="index.html#programming">Programming</a></li>
+					<li><a href="index.html#videos">Videos</a></li>
+					<li><a href="index.html#aboutme">About me</a></li>
+					<li><a href="newvid.html">Newest video</a></li>
+				</ul>
+          
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="index.html#programming">Programming</a></li>
+					<li><a href="index.html#videos">Videos</a></li>
+					<li><a href="index.html#aboutme">About me</a></li>
+					<li><a href="newvid.html">Newest video</a></li>
+				</ul>
+          
+			</div>
+		</nav>
+		<!--Program html template, filled in with JSON later on-->
+		<div class="section white">
+			<div class="row container">
+				<h2 id="programname" class="header center"></h2>
+				<div class="section row">
+					<img src="" id="image" class="responsive-img col l8 offset-l2 m10 offset-m1 s12">
+					<div class="col s12 m6">
+						<p class="center-align"><b>Why?</b></p>
+						<p class="grey-text text-darken-3 lighten-3 center-align" id="why"></p>
+					</div>
+					<div class="col s12 m6">
+						<p class="center-align"><b>What is it?</b></p>
+						<p class="grey-text text-darken-3 lighten-3 center-align" id="description"></p>
+					</div>
+				</div>
+				<div class="section row">
+					<div class="col s12 m6">
+						<p class="center-align"><b>Libraries used</b></p>
+						<p class="grey-text text-darken-3 lighten-3 center-align" id="libsused"></p>
+					</div>
+					<div class="col s12 m6">
+						<p class="center-align"><b>Download</b></p>
+						<p class="center-align"><a href="" id="download">This program/app is available here.</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+      
+		<footer class="page-footer light-blue darken-2">
+			<div class="row">
+				<div class="col s12 m8 l6 offset-m2 offset-l3">
+					<a class="left white-text" href="https://instagram.com/alexkshaw">Instagram</a>
+					<a class="right white-text" href="https://twitter.com/its_alexks">Twitter</a>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container center">
+					&copy; 2017 Alex Shaw
+				</div>
+			</div>
+		</footer>
+  
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript" src="js/JSONload.js"></script>
+	</body>
+ </html>

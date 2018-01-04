@@ -1,0 +1,59 @@
+{
+  "id3ditor":{
+    "name":"ID3ditor",
+    "description":"ID3ditor is an ID3 tag editor that imports all MP3s from a selected directory before allowing the user to add tags such as album art, title and album. Once the user has added all tags, they can export all the MP3s from the original folder to a folder on the desktop which will arrange the MP3s into a Genre>Artist>Album folder structure. It also supports MP3 playback to preview tracks. This is a desktop program written in C# in 2016.",
+    "why":"I originally made this program to speed up my own music organisation. I often found that importing music from CDs left incomplete or ID3 tags that didnt fit my scheme. To counteract this, I created the program that can edit and organise the MP3s.",
+    "libs":"Libraries used are TagLib, WMPLib and .NET.",
+    "image":"images/programs/id3ditor.jpg",
+    "download":"https://github.com/AKShaw/id3ditor"
+  },
+  "RPiHomeAuto":{
+    "name":"RPi Home Automation System",
+    "description":"This is an object oriented program designed to run on a Raspberry Pi with sensors attached. The program reads from various sensors, such as temperature, humidity, cameras, proximity and light level. It also allows the user to interact with the system and turn an LED matrix and buzzers. This is acheived via the RPi's GPIO library. It runs through Bottle, a web framework for python, which allows the user to control the system and view sensor readings through a web app that I developed with Google's Polymer Project. This is a web app that works in desktop and mobile, written in Python, HTML 2016.",
+    "why":"This program was originally for my ICT Computing coursework, but there was no guidelines on which sensors to include or which interface we had to use. While most people used a CLI, I am interested in web apps so I decided to write a web interface for the program. This involved teaching my self Bottle. This provided me with a challenge that gave me my own free reign and forced me to do my own research into the topics, which turned out to be very interesting! This has been my favourite project due to the challenges and new skills learned.",
+    "libs":"GPIO, Bottle, Polymer Project, Sensehat, LCD1602",
+    "image":"images/programs/rpihomeautomation.jpg",
+    "download":"https://github.com/AKShaw/RPiHomeAutomation"
+  },
+  "everhealth":{
+    "name":"Everhealth",
+    "description":"Everhealth is an object oriented mobile app developed in C# for Windows Phone. The app allows users to calculate there BMI, BMR and Body Fat Percentage. This is a Windows Phone 8 mobile app written in C#, 2014/2015",
+    "why":"This program was developed as coursework for my ICT Computing class. We were told to write an event-driven health app that calculated said factors, but I chose to implement OOP as well as event-driven features as it made it easier.",
+    "libs":"Windows Phone library",
+    "image":"images/programs/everhealth.jpg",
+    "download":"https://github.com/AKShaw/Everhealth"
+  },
+  "patterngenerator":{
+    "name":"Random Triangle Patern Generator",
+    "description":"This program takes a background color and 4 foreground colors from the user and then generates a random, triangle based pattern. This involved learning about the System.Drawing .net library and developing basic algorythms. This is a desktop app written in C#, 2015.",
+    "why":"I had recently bought a t-shirt that had a triangle pattern on it and I wanted to create a program, but didnt know what to create. So I wrote one that made the same pattern as my t-shirt.",
+    "libs":".NET",
+    "image":"images/programs/patterngen.jpg",
+    "download":"https://github.com/AKShaw/Triangle-Pattern-Generator"
+  },
+  "snipergame":{
+    "name":"Sniper Game",
+    "description":"This is a basic game in which you need to shoot all the enemies before they shoot your health down. This is a desktop game written in Python, 2013.",
+    "why":"I wanted to make a game so I started searching for python game development and found PyGame. I used this games' creation to teach my self about game programming concepts and PyGame.",
+    "libs":"PyGame",
+    "image":"images/programs/snipergame.jpg",
+    "download":"https://github.com/AKShaw/SniperGame"
+  },
+  "mathsstack":{
+    "name":"Maths Stack",
+    "description":"This is an Android app that helps users (5-15) with basic maths skills such as addition, subtraction, multiplication and division or whole numbers! Written in Java for Android in 2016.",
+    "why":"During my gap year we wanted to help my little sister catch up with her maths skills so she was on par with everyone else come Year 7. I saw this as a perfect opertunity to practice some programming as well as learn a new platform (this is my first Android app!) so I created a little game for her to play and chose to distribute it on the play store!",
+    "libs":"Android SDK (Android 4.0.3+)",
+    "image":"images/programs/mathsstack.jpg",
+    "download":"https://play.google.com/store/apps/details?id=uk.co.alexks.mathsstack"
+  },
+  "deadliner":{
+    "name":"Deadliner",
+    "description":"This is an Android app that helps users track and complete deadlines by sending them notifications, 'nagging' them to complete them. Written in Java for Android, 2017.",
+    "why":"During my gap year I wanted to create an app for fun. I also had a lot of friends in university that would always say they would forget there deadlines, so I created this app to help them track deadlines, and to remind them of deadlines as often people create a reminder and forget about it until the reminder goes off 2 hours before the deadline.",
+    "libs":"Android SDK (Android 4.0.3+)",
+    "image":"images/programs/deadliner.jpg",
+    "download":"https://play.google.com/store/apps/details?id=uk.co.alexks.deadliner"
+  }
+}
+
