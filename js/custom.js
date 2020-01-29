@@ -10,10 +10,53 @@ function gcseGrades(){
 
 function alvlGrades(){
   var $toastContent = $('<span>A-Levels:<br/>Maths: A*, <br/> Further maths: B, <br/><br/>BTEC Level 3: <br/>Computer Science: Distinction Star, <br/><br/> AS Level: <br/>Biology: D</span>');
-  Materialize.toast($toastContent, 10000);
+  Materialize.toast($toastContent, 12000);
 }
 
-function uniSemOneModules(){
-  var $toastContent = $('<span><b>Programming 1</b><br />Within this module I am futhering my knowledge in Java.<br/><br/><b>Foundations of Computer Science</b><br/>This module teaches us the maths behind computer science, including areas such as set theory, linear algebra, logic and combinatorics.<br/><br/><b>Computer Systems 1</b><br/>This module is about how computers work. We have covered the CPU, busses, memory and IO so far.<br/><br/><b>Professional development</b><br />Within this module we are learning profressional skills such as technical report writing and giving presentations.</span>');
-  Materialize.toast($toastContent, 10000);
+function uniYear1Modules(){
+  var $toastContent = $("<span><b>Year 1</b><br />"
+  + "<b>Semester 1</b><br />Programming 1<br />"
+  + "Foundations of Computer Science<br />" 
+  + "Computer Systems 1<br />"
+  + "Professional Development<br /><br />"
+  + "<b>Semester 2</b><br />"
+  + "Programming 2<br />"
+  + "Algorithmics<br />"
+  + "Data Management<br />"
+  + "Software Modelling and Design<br /><br />"
+  + "</span>");
+  Materialize.toast($toastContent, 12000);
+}
+
+function uniYear2Modules(){
+  var $toastContent = $("<span>"
+  + "<b>Year 2</b><br />"
+  + "<b>Semester 1</b><br />"
+  + "Programming 3<br />"
+  + "Theory of Computing<br />"
+  + "Intelligent Systems<br />"
+  + "Interaction Design<br /><br />"
+  + "<b>Semester 2</b><br />"
+  + "Programming Language Concepts<br />"
+  + "Distributed Systems and Networks<br />"
+  + "Software Engineering Group Project<br />"
+  + "Principles of Cyber Security<br /><br />"
+  + "</span>");
+  Materialize.toast($toastContent, 12000);
+}
+
+function uniYear3Modules(){
+  var $toastContent = $("<span>"
+  + "<b>Year 3</b><br />"
+  + "<b>Semester 1</b><br />"
+  + "Foundations of Machine Learning<br />"
+  + "Computer Vision<br />"
+  + "Engineering Management and Law<br />"
+  + "Individual Project (1 modules worth)<br /><br />"
+  + "<b>Semester 2</b/><br />"
+  + "Advanced Databases<br />"
+  + "Computational Biology<br />"
+  + "Individual Project (2 modules worth)"
+  +"</span>");
+  Materialize.toast($toastContent, 12000);
 }
