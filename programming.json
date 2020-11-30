@@ -53,7 +53,7 @@
     "why":"During my gap year I wanted to create an app for fun. I also had a lot of friends in university that would always say they would forget there deadlines, so I created this app to help them track deadlines, and to remind them of deadlines as often people create a reminder and forget about it until the reminder goes off 2 hours before the deadline.",
     "libs":"Android SDK (Android 4.0.3+)",
     "image":"images/programs/deadliner.jpg",
-    "download":"https://play.google.com/store/apps/details?id=uk.co.alexks.deadliner"
+    "download":"https://github.com/AKShaw/Deadliner"
   }
 }
 
